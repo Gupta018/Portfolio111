@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vishal Gupta — CSE student, aspiring Software Engineer, Data & Analytics enthusiast." />
+  <title>Vishal Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home">VG<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="project.html">Build Lab</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <!-- <a class="#BuiltLab" href="project.html">← Back to portfolio</a> -->
+    
+<div class="theme-control" aria-label="Display controls">
+  <span class="theme-icon" id="themeIcon">🌙</span>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch between day and night mode"></button>
+</div>
+</nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-bg">
+        <span class="orb orb1"></span><span class="orb orb2"></span><span class="grid"></span>
+      </div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, I'M VISHAL GUPTA</p>
+        <h1>Building <span>digital experiences</span> with code & data.</h1>
+        <p class="hero-text">
+          Computer Science Engineering student focused on software engineering,
+          data analytics and user-centered digital products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Let's Connect</a>
+        </div>
+        <div class="portfolio-signature" aria-label="Personal portfolio signature">
+          <span class="tag-pill">Data + Design + Code</span>
+          <span class="tag-pill subtle">Problem solver with a product mindset</span>
+        </div>
+        <div class="stats">
+          <div><strong>250+</strong><span>LeetCode Problems</span></div>
+          <div><strong>10+</strong><span>Projects & Dashboards</span></div>
+          <div><strong>5+</strong><span>Core Tech Areas</span></div>
+        </div>
+      </div>
+
+      <div class="home-cartoon-3d reveal delay" aria-label="Animated 3D-style developer cartoon">
+        <div class="home-orbit home-orbit-a"></div>
+        <div class="home-orbit home-orbit-b"></div>
+        <span class="home-badge home-badge-java">JAVA</span>
+        <span class="home-badge home-badge-python">PYTHON</span>
+        <span class="home-badge home-badge-code">&lt;/&gt;</span>
+        <div class="home-robot">
+          <div class="home-head">
+            <div class="home-hair"></div>
+            <div class="home-face">
+              <i class="home-eye left"></i><i class="home-eye right"></i>
+              <b class="home-glass left"></b><b class="home-glass right"></b>
+              <em class="home-bridge"></em><span class="home-smile"></span>
+            </div>
+          </div>
+          <div class="home-neck"></div>
+          <div class="home-torso"><span>&lt;/&gt;</span></div>
+          <div class="home-arm left"></div><div class="home-arm right"></div>
+          <div class="home-hand left"></div><div class="home-hand right"></div>
+          <div class="home-laptop">
+            <div class="home-screen"><span>code</span><b>▸</b></div>
+            <div class="home-base"></div>
+          </div>
+        </div>
+        <div class="home-caption"><small>HELLO, I'M VISHAL</small><strong>Build · Learn · Impact</strong></div>
+      </div>
+
+      <div class="hero-card hero-code-panel reveal delay">
+        <div class="terminal">
+          <div class="terminal-top" aria-label="Code editor status bar">
+            <div class="terminal-lights" aria-hidden="true">
+              <i class="light-red"></i><i class="light-amber"></i><i class="light-green"></i>
+            </div>
+            <span class="terminal-file"><b>vishal.java</b><em>saved</em></span>
+            <span class="terminal-mode">Java · UTF-8 · LF</span>
+          </div>
+          <pre><code><span class="purple">public class</span> <span class="blue">Vishal</span> {
+  String role = <span class="green">"Software Engineer"</span>;
+  String[] focus = {
+    <span class="green">"Java"</span>, <span class="green">"Python"</span>,
+    <span class="green">"SQL"</span>, <span class="green">"Data"</span>
+  };
+
+  <span class="purple">void</span> <span class="blue">build</span>() {
+    learn();
+    solve();
+    create();
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="about" class="about-premium about-v4 section">
+  <div class="about-v4-top">
+    <div class="about-v4-kicker reveal"><span>01 / ABOUT</span><i></i><strong>BUILDER PROFILE</strong></div>
+    <div class="about-v4-index reveal">VG · 2026</div>
+  </div>
+
+  <div class="about-v4-hero">
+    <div class="about-v4-copy reveal">
+      <p class="about-v4-label">HOW I THINK</p>
+      <h2>I turn <em>unclear problems</em> into useful digital experiences.</h2>
+      <p class="about-v4-summary">
+        I enjoy finding the real problem underneath an idea, choosing a practical path forward,
+        and improving the result until the software, data or interface feels clear and purposeful.
+      </p>
+    </div>
+
+    <aside class="about-v4-profile reveal" aria-label="Vishal's builder profile">
+      <div class="profile-top">
+        <span class="profile-dot"></span>
+        <span>BUILD / THINK / REFINE</span>
+        <span class="profile-code">VG-01</span>
+      </div>
+      <div class="profile-core">
+        <div class="profile-orbit profile-orbit-1"></div>
+        <div class="profile-orbit profile-orbit-2"></div>
+        <div class="profile-center">
+          <strong>V</strong>
+          <span>BUILDER</span>
+        </div>
+      </div>
+      <div class="profile-focus">
+        <div class="profile-focus-label"><span>FOCUS</span><i></i><em>ACTIVE</em></div>
+        <b>Software · Data · Product</b>
+        <div class="profile-metrics" aria-label="Builder focus areas">
+          <div><strong>01</strong><span>Build</span></div>
+          <div><strong>02</strong><span>Analyze</span></div>
+          <div><strong>03</strong><span>Refine</span></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="about-v4-focus reveal">
+    <div class="focus-title">
+      <span class="about-v4-label">WHAT DRIVES THE WORK</span>
+      <p>Different projects, same mindset: make the next decision clearer.</p>
+    </div>
+    <div class="focus-list">
+      <div class="focus-row"><span>01</span><strong>Problem solving</strong><p>Break complexity into decisions that can actually be acted on.</p></div>
+      <div class="focus-row"><span>02</span><strong>Continuous learning</strong><p>Learn through building, testing and using each project as feedback.</p></div>
+      <div class="focus-row"><span>03</span><strong>User awareness</strong><p>Keep the person using the result in mind, not just the technology behind it.</p></div>
+    </div>
+  </div>
+
+  <div class="about-v4-process">
+    <div class="process-head reveal">
+      <span class="about-v4-label">HOW I WORK</span>
+      <strong>From messy idea → useful product</strong>
+    </div>
+    <div class="process-line" aria-hidden="true"></div>
+    <div class="process-grid">
+      <article class="process-card reveal is-active" data-process-card><span>01</span><div class="process-meta"><small>START WITH CONTEXT</small><b>01 / 04</b></div><h3>Understand</h3><p>Clarify the goal, user and constraints before choosing technology.</p><div class="process-progress"><i></i></div></article>
+      <article class="process-card reveal" data-process-card><span>02</span><div class="process-meta"><small>MAKE IT REAL</small><b>02 / 04</b></div><h3>Build</h3><p>Make a focused first version that creates something real to test.</p><div class="process-progress"><i></i></div></article>
+      <article class="process-card reveal" data-process-card><span>03</span><div class="process-meta"><small>REMOVE FRICTION</small><b>03 / 04</b></div><h3>Refine</h3><p>Remove friction, improve the details and keep what matters.</p><div class="process-progress"><i></i></div></article>
+      <article class="process-card reveal" data-process-card><span>04</span><div class="process-meta"><small>CARRY IT FORWARD</small><b>04 / 04</b></div><h3>Repeat</h3><p>Carry the lessons forward so the next build starts stronger.</p><div class="process-progress"><i></i></div></article>
+    </div>
+  </div>
+</section>
+
+    <section id="skills" class="section section-alt">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+        <h2>Tools I use to <span>build & solve.</span></h2>
+        <p class="section-subtitle">A practical technical toolkit across software development, data, analytics and product design.</p>
+      </div>
+
+      <div class="skills-grid technical-skills-grid">
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">☕</div><span>01</span></div>
+          <h3>Programming & Backend</h3>
+          <p>Java · C++ · Python · Object-Oriented Programming · Interfaces · Exception Handling · Backend foundations</p>
+          <div class="skill-tags"><span>Java</span><span>C++</span><span>Python</span><span>OOP</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">▤</div><span>02</span></div>
+          <h3>Data Structures & Algorithms</h3>
+          <p>Problem solving with arrays, strings, recursion, sorting, searching, trees, heaps and algorithmic thinking.</p>
+          <div class="skill-tags"><span>DSA</span><span>Algorithms</span><span>LeetCode 250+</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">⌘</div><span>03</span></div>
+          <h3>Database & SQL</h3>
+          <p>Relational database design, joins, stored procedures, CRUD operations, schema design, indexing and MySQL.</p>
+          <div class="skill-tags"><span>SQL</span><span>MySQL</span><span>PL/SQL</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">◈</div><span>04</span></div>
+          <h3>Data Analytics & BI</h3>
+          <p>Transforming raw data into decision-ready dashboards using data modeling, DAX, KPIs, filters and drill-down analysis.</p>
+          <div class="skill-tags"><span>Power BI</span><span>DAX</span><span>Tableau</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">◎</div><span>05</span></div>
+          <h3>Machine Learning & Data</h3>
+          <p>Data preprocessing, EDA, classification workflows and model comparison using Python's data and ML ecosystem.</p>
+          <div class="skill-tags"><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">✦</div><span>06</span></div>
+          <h3>Web & UI/UX</h3>
+          <p>Responsive interfaces, interaction design and prototypes with a focus on usability, visual hierarchy and user flows.</p>
+          <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span><span>Framer</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">⬡</div><span>07</span></div>
+          <h3>Big Data & Tools</h3>
+          <p>Foundational experience with distributed data technologies and development tools used across academic projects.</p>
+          <div class="skill-tags"><span>Hadoop</span><span>Hive</span><span>Git</span></div>
+        </article>
+
+        <article class="skill-card technical-skill reveal">
+          <div class="skill-top"><div class="skill-icon">↗</div><span>08</span></div>
+          <h3>Engineering Mindset</h3>
+          <p>Clean problem decomposition, debugging, database-backed applications, project documentation and continuous learning.</p>
+          <div class="skill-tags"><span>Problem Solving</span><span>Debugging</span><span>Teamwork</span></div>
+        </article>
+      </div>
+
+
+    </section>
+
+    
+
+      <section id="projects" class="section projects-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <h2>Things I've <span>built.</span></h2>
+      </div>
+
+      <div class="project-stage">
+        <div class="project-grid-wrap">
+          <div class="project-intro reveal">
+            <span>SELECTED WORK</span>
+            <p>Selected work across analytics, machine learning, product design and software workflows.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project featured reveal">
+              <div class="project-top"><span class="project-num">01</span><span class="tag">BUSINESS INSIGHTS</span></div>
+              <h3>Market Segmentation Analysis</h3>
+              <a class="project-detail-link" href="project.html?project=market-segmentation">View full build →</a>
+              <p>Built a business dashboard to understand customer groups, buying patterns, and market trends in a simple visual format.</p>
+              <div class="project-tech"><span>Power BI</span><span>DAX</span><span>Python</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">02</span><span class="tag">AI PREDICTION</span></div>
+              <h3>Loan Predictor</h3>
+              <a class="project-detail-link" href="project.html?project=loan-predictor">View full build →</a>
+              <p>Created a model that predicts loan approval chances using applicant history, helping make faster and smarter decisions.</p>
+              <div class="project-tech"><span>Python</span><span>Scikit-learn</span><span>Pandas</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">03</span><span class="tag">PRODUCT DESIGN</span></div>
+              <h3>Booking Express</h3>
+              <a class="project-detail-link" href="project.html?project=booking-express">View full build →</a>
+              <p>Designed a smoother booking flow from searching a ride to confirming it, with a cleaner and more user-friendly interface.</p>
+              <div class="project-tech"><span>Figma</span><span>Framer</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">04</span><span class="tag">WEB APP</span></div>
+              <h3>Hospital Management System</h3>
+              <a class="project-detail-link" href="project.html?project=hospital-management">View full build →</a>
+              <p>Developed a desktop application for managing patient records, prescriptions, and medicines in a structured way.</p>
+              <div class="project-tech"><span>Python</span><span>Tkinter</span><span>MySQL</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">05</span><span class="tag">DATA VISUALIZATION</span></div>
+              <h3>Complaints & Sales Dashboard</h3>
+              <a class="project-detail-link" href="project.html?project=tableau-dashboard">View full build →</a>
+              <p>Built an interactive dashboard that connects customer complaints with sales trends, making insights easier to explore.</p>
+              <div class="project-tech"><span>Tableau Prep</span><span>Tableau</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">06</span><span class="tag">PORTFOLIO</span></div>
+              <h3>Personal Portfolio Website</h3>
+              <a class="project-detail-link" href="project.html?project=personal-portfolio">View full build →</a>
+              <p>Created a modern personal portfolio to present my skills, projects, and learning journey in a clear and engaging way.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-top"><span class="project-num">07</span><span class="tag">PRODUCT DESIGN</span></div>
+              <h3>cBank ATM Machine</h3>
+              <a class="project-detail-link" href="project.html?project=cbank-atm">View full build →</a>
+              <p>Designed a complete ATM experience in Figma, covering card entry, authentication, transaction selection, account states and feedback screens.</p>
+              <div class="project-tech"><span>Figma</span><span>UI/UX Design</span><span>Prototyping</span></div>
+              <div class="project-arrow">↗</div>
+            </article>
+          </div>
+        </div>
+
+          <aside class="story-cartoon project-story-cartoon reveal" data-draggable="true" aria-label="Draggable animated project developer">
+            <div class="story-orbit orbit-one"></div>
+            <div class="story-orbit orbit-two"></div>
+            <span class="story-chip chip-java">JAVA</span>
+            <span class="story-chip chip-ml">ML</span>
+            <span class="story-chip chip-ui">UI</span>
+            <div class="story-robot project-bot">
+              <div class="story-head">
+                <div class="story-hair"></div>
+                <div class="story-face"><i class="story-eye e-left"></i><i class="story-eye e-right"></i><b class="story-spec l"></b><b class="story-spec r"></b><em class="story-bridge"></em><span class="story-smile"></span></div>
+              </div>
+              <div class="story-neck"></div>
+              <div class="story-body"><span>&lt;/&gt;</span></div>
+              <div class="story-arm a-left"></div><div class="story-arm a-right"></div>
+              <div class="story-hand h-left"></div><div class="story-hand h-right"></div>
+              <div class="story-laptop"><div class="story-screen">&lt; build /&gt;</div><div class="story-base"></div></div>
+            </div>
+            <div class="drag-hint">↕ DRAG ME · PROJECT MODE</div>
+          </aside>
+      </div>
+    </section>
+
+
+    
+    <section id="education" class="section education-section section-alt">
+      <div class="section-head reveal">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2>My academic <span>journey.</span></h2>
+        <p class="section-subtitle">The milestones that built my academic foundation and shaped my path into Computer Science Engineering.</p>
+      </div>
+
+      <div class="education-layout">
+        <div class="education-timeline reveal">
+          <article class="edu-card">
+            <div class="edu-marker"><span>01</span></div>
+            <div class="edu-main">
+              <div class="edu-top"><span class="edu-year">2018 - 2019</span><span class="edu-score completed-label">COMPLETED</span></div>
+              <span class="edu-level">SECONDARY · CLASS X</span>
+              <h3>Grade X — Secondary</h3>
+              <p class="edu-place">D.K. Carmel Residential High School · Ara, Bihar</p>
+              <p>Completed Class 10 under the CBSE curriculum and built the foundation for a science-focused higher-secondary path.</p>
+              <div class="edu-tags"><span>CBSE</span><span>Class X</span><span>Completed</span></div>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <div class="edu-marker"><span>02</span></div>
+            <div class="edu-main">
+              <div class="edu-top"><span class="edu-year">2020 - 2021</span><span class="edu-score completed-label">COMPLETED</span></div>
+              <span class="edu-level">HIGHER SECONDARY · CLASS XII</span>
+              <h3>Grade XII — Science</h3>
+              <p class="edu-place">J.N.K College · Ara, Bihar</p>
+              <p>Completed Class 12 in the Science stream under the Bihar State Board, strengthening analytical thinking for engineering studies.</p>
+              <div class="edu-tags"><span>Bihar Board</span><span>Science</span><span>Completed</span></div>
+            </div>
+          </article>
+
+          <article class="edu-card current">
+            <div class="edu-marker"><span>03</span></div>
+            <div class="edu-main">
+              <div class="edu-top"><span class="edu-year">2022 - 2026</span><span class="edu-score completed-label">COMPLETED</span></div>
+              <span class="edu-level">GRADUATE · B.TECH</span>
+              <h3>B.Tech — Computer Science & Engineering</h3>
+              <p class="edu-place">Lovely Professional University . Jalandhar, Punjab </p>
+              <p>Completed my B.Tech in Computer Science & Engineering, building strong foundations in software engineering, programming, databases, data analytics, DSA, UI/UX and modern development.</p>
+              <div class="edu-tags"><span>CSE</span><span>Java</span><span>Python</span><span>SQL</span><span>DSA</span></div>
+            </div>
+          </article>
+        </div>
+
+          <aside class="story-cartoon academic-story-cartoon reveal" data-draggable="true" aria-label="Draggable animated academic developer">
+            <div class="story-orbit orbit-one"></div>
+            <div class="story-orbit orbit-two"></div>
+            <span class="story-chip chip-year1">2019</span>
+            <span class="story-chip chip-year2">2021</span>
+            <span class="story-chip chip-year3">2026</span>
+            <div class="story-robot academic-robot">
+              <div class="story-head">
+                <div class="story-hair"></div>
+                <div class="story-face"><i class="story-eye e-left"></i><i class="story-eye e-right"></i><b class="story-spec l"></b><b class="story-spec r"></b><em class="story-bridge"></em><span class="story-smile"></span></div>
+              </div>
+              <div class="story-neck"></div>
+              <div class="story-body"><span>★</span></div>
+              <div class="story-arm a-left"></div><div class="story-arm a-right"></div>
+              <div class="story-hand h-left"></div><div class="story-hand h-right"></div>
+              <div class="graduation-cap"><i></i></div>
+            </div>
+            <div class="drag-hint">↕ DRAG ME · ACADEMIC JOURNEY</div>
+          </aside>
+      </div>
+    </section>
+    <section id="contact" class="section contact contact-pro">
+      <div class="contact-shell reveal">
+        <div class="contact-intro">
+          <div class="contact-kicker"><span>05 / CONTACT</span><i></i><strong>LET'S TALK</strong></div>
+          <h2>Have a project, idea, or <span>problem worth solving?</span></h2>
+          <p class="contact-lead">Tell me what you are working on. I will review the details, understand the goal, and reply with the clearest next step.</p>
+
+          <div class="contact-status-card">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div>
+              <small>AVAILABLE FOR CONVERSATIONS</small>
+              <strong>Software · Data · Product</strong>
+            </div>
+          </div>
+
+          <div class="contact-channel-list">
+            <a class="contact-channel" href="mailto:vishal.soni2702@gmail.com">
+              <span class="channel-index">01</span>
+              <span><small>EMAIL</small><strong>vishal.soni2702@gmail.com</strong></span>
+              <b aria-hidden="true">↗</b>
+            </a>
+            <a class="contact-channel" href="https://www.linkedin.com/in/vishal-12-gupta/" target="_blank" rel="noreferrer">
+              <span class="channel-index">02</span>
+              <span><small>LINKEDIN</small><strong>Connect professionally</strong></span>
+              <b aria-hidden="true">↗</b>
+            </a>
+            <a class="contact-channel" href="https://github.com/Gupta018" target="_blank" rel="noreferrer">
+              <span class="channel-index">03</span>
+              <span><small>GITHUB</small><strong>See the code behind the work</strong></span>
+              <b aria-hidden="true">↗</b>
+            </a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form contact-form-pro" novalidate>
+          <div class="form-head">
+            <div>
+              <span>START A CONVERSATION</span>
+              <h3>Project enquiry</h3>
+            </div>
+            <span class="form-id">VG / 05</span>
+          </div>
+
+          <div class="form-row">
+            <label>NAME<input name="name" autocomplete="name" type="text" placeholder="Your name" required></label>
+            <label>EMAIL<input name="email" autocomplete="email" type="email" placeholder="you@example.com" required></label>
+          </div>
+          <label>SUBJECT<input name="subject" type="text" placeholder="What are you building?" required></label>
+          <label>MESSAGE<textarea name="message" rows="7" placeholder="Give me the context, goal, and what you need help with…" required></textarea></label>
+          <input class="contact-honeypot" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-bottom">
+            <p id="formStatus" class="form-status" role="status" aria-live="polite">Fill in the details and send your enquiry. Your message will use the secure portfolio endpoint when available, with a direct email fallback.</p>
+            <button class="btn primary send-btn" type="submit">Send enquiry <span>↗</span></button>
+          </div>
+        </form>
+      </div>
+
+      <div id="messageSuccess" class="message-success" aria-hidden="true">
+        <div class="success-card success-pro">
+          <button class="success-close" type="button" aria-label="Close">×</button>
+
+          <div class="success-scene" aria-hidden="true">
+            <div class="success-spark spark-a"></div>
+            <div class="success-spark spark-b"></div>
+            <div class="success-spark spark-c"></div>
+            <div class="success-check-ring"><span>✓</span></div>
+            <div class="success-robot">
+              <div class="success-antenna"><i></i></div>
+              <div class="success-robot-head">
+                <span class="success-eye left"></span><span class="success-eye right"></span>
+                <span class="success-robot-smile"></span>
+              </div>
+              <div class="success-robot-body">
+                <span class="success-robot-badge">VG</span>
+              </div>
+              <div class="success-robot-arm left"><i></i></div>
+              <div class="success-robot-arm right"><i></i></div>
+              <div class="success-message-card">
+                <span class="success-message-dot"></span>
+                <b>sent</b>
+                <small>your message</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="success-copy">
+            <span class="success-kicker">MESSAGE SENT</span>
+            <h3>Your message is on its way.</h3>
+            <p>Your enquiry has been delivered successfully. Thanks for reaching out — I’ll get back to you soon.</p>
+            <div class="success-meta"><span></span><b>Delivered to portfolio inbox</b><small>Secure submission</small></div>
+            <button class="btn primary success-done" type="button">Back to portfolio <span>↗</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer><span>© 2026 Vishal Gupta</span><span>Designed & built with curiosity.</span></footer>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
